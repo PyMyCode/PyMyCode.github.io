@@ -1,6 +1,7 @@
 body
 {
-    font-family: sans-serif;
+    font-family: monospace;
+    font-size: 2em;
     background-color: #6decdd;
     padding: 25px 100px 75px 100px;
 }
