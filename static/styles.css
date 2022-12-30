@@ -1,7 +1,7 @@
 body
 {
     font-family: monospace;
-    font-size: 2em;
+    font-size: clamp(1rem, 2vw, 2rem);
     background-color: #6decdd;
     padding: 25px 100px 75px 100px;
 }
