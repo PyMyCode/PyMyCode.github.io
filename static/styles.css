@@ -1,9 +1,9 @@
 body
 {
-    font-family: monospace;
-    font-size: clamp(1rem, 2vw, 2rem);
-    background-color: #6decdd;
-    padding: 25px 100px 75px 100px;
+  font-family: monospace;
+  font-size: clamp(1rem, 2vw, 2rem);
+  background-color: #6decdd;
+  padding: 25px 100px 75px 100px;
 }
 h1 
 {
@@ -17,45 +17,11 @@ h5
   color: #fff;
   background-color: #45b0b5;
 }
-
-.company_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1em;
-}
-
-.company {
-  display: inline-block;
-  height: 60px;
-  padding: 2px;
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.company:hover {
-  background: #45b0b5;
-  transition: 0.4s background;
-  cursor: pointer;
-}
-
-.company_name
+.body_books
 {
-  font-size: 14px;
-  background: transparent;
-  border: none;
-  display: inline-block;
-}
-
-.overview_table {
-  display: inline-block;
-  padding: 2px;
-  font-weight: bold;
-}
-
-.overview_table:hover {
-  background: #45b0b5;
-  transition: 0.4s background;
-  cursor: pointer;
+  font-family: monospace;
+  font-size: clamp(1rem, 2vw, 2rem);
+  background-color: #ffffff;
 }
 
 footer
