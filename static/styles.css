@@ -1,4 +1,4 @@
-body
+.body_main
 {
   font-family: monospace;
   font-size: clamp(1rem, 2vw, 2rem);
