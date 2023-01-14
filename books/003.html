@@ -15,7 +15,7 @@
     </li>
     <li>Options: Offers the "right" </li>
 </ol>
-<h2>Options</h2>
+<h2>Options Contract</h2>
 <h3>Definition</h3>
 - An options contract is an agreement between two parties to facilitate a <b>potential transaction</b> on an underlying security at a preset price, 
 referred to as the <b>strike price</b>, prior to or on the <b>expiration date</b>.
@@ -27,6 +27,40 @@ referred to as the <b>strike price</b>, prior to or on the <b>expiration date</b
 <ul>
     <li>Call: Right to buy</li>
     <li>Put: Right to sell</li>
+</ul>
+<h3>Positions</h3>
+<ul>
+    <li>Long: To a buy an option</li>
+    <li>Short: To sell an option</li>
+</ul>
+<p>E.g. Short Call: To <b>sell</b> the right to buy the underlying asset at a strike price</p>
+<p>E.g. Long Put: To <b>buy</b> the right to sell the underlying asset at a strike price</p>
+
+<ul>
+    <li>In-The-Money (ITM): Have intrinsic value</li>
+    <li>Out-of-The-Money(OTM): No intrinsic value, only time value</li>
+    <li>At-the-Money(OTM)</li>
+</ul>
+<p>E.g. ITM for Call = Strike price (100€) < underlying asset (110€).</p>
+
+<h3>The Greeks</h3>
+<h4>Delta</h4>
+<ul>
+    <li>Delta (Δ) = change in option price for a 1$ change in price of underlying asset</li>
+    <li>Delta is higher for ITM than for OTM</li>
+    <li>0 to 1 for call, -1 to 0 for puts</li>
+</ul>
+<h4>Theta</h4>
+<ul>
+    <li>Rate of decline in the value of an option over time (time decay)</li>
+    <li>indicates how much the option's value will decline every day up to maturity (negative number for long positions)</li>
+    <li>More the number of days to to expiration, lower is the theta</li>
+</ul>
+<h4>Vega</h4>
+<ul>
+    <li>Vega is the measurement of an option's price sensitivity to changes in the volatility of the underlying asset</li>
+    <li>Vega represents the amount that an option contract's price changes in reaction to a 1% change in the implied volatility of the underlying asset</li>
+    <li></li>
 </ul>
 <h4>Call Options</h4>
 <img src="https://www.investopedia.com/thmb/6MllmCxT2_2ZVjCQ1vyG9RnPhbU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/dotdash_Final_Call_Option_Definition_Apr_2020-01-a13f080e7f224c09983babf4f720cd4f.jpg" alt="Call Option" width="400" height="300">
